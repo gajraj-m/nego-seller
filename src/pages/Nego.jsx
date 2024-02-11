@@ -209,7 +209,7 @@ const Nego = () => {
             <button
               onClick={() => {}}
               className={`shadow-md shadow-blue-300 ${
-                sliderValue > 75 ? "bg-buttonGradient" : "hidden"
+                currSimilarity > 75 ? "bg-buttonGradient" : "hidden"
               }  font-medium text-white px-8 py-3 rounded-lg uppercase hover:opacity-95 disabled:opacity-80 hover:scale-105 duration-200`}
             >
               <span>Finalize</span>
